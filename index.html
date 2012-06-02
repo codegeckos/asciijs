@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META //-->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="codegeckos.com">
+        
+    <!-- TITLE //-->
+    <title>ASCII.js</title>
+             
+    <!-- CSS //-->
+        
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="css/prettify.css" rel="stylesheet" />    
+        
+    <!-- ICONS //-->
+    <link rel="shortcut icon" href="img/favicon.ico">      
+  </head>
+  <body style="padding-top: 40px;" onload="prettyPrint()">
+	<div class="container">
+		<div class="content" id="content">
+			<div class="row" style="margin-top: 50px;">
+				<div class="span8 offset2">
+                    <a name="about">&nbsp;</a>
+                    <h2>About</h2>
+                    <br />
+                    <strong>Newman API</strong> allows you to add a contact form to your (static) website. Just add some HTML code to your site and you're on your way. No programming is required. Not even javascript.
+                    <br /><br />
+                    <a name="implementation">&nbsp;</a>
+                    <pre class="prettyprint">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;&#33;&#45;&#45; name your masterpiece &#45;&#45;&gt;
+    &lt;title>&lt;&#47;title&gt;
+  &lt;&#47;head&gt;
+  &lt;body>
+    &lt;div id="artist"&gt;
+      &lt;&#33;&#45;&#45; some optional info &#45;&#45;&gt;
+      by &lt;strong>YOUR NAME&lt;&#47;strong>&lt;br &#47;&gt;
+      &lt;a href="http:&#47;&#47;www.example.com" target="_blank">http://www.example.com&lt;&#47;a&gt;
+      &lt;hr &#47;&gt;
+      &lt;br &#47;&gt;&lt;br &#47;&gt;
+    &lt;&#47;div&gt;
+    &lt;div id="artwork"&gt;&lt;&#47;div&gt;
+    &lt;script type="text/javascript"&gt;
+      var artwork = '';
+
+      &#47;&#47; YOUR CODE HERE
+
+      document.getElementById('artwork').innerHTML = artwork;
+    &lt;&#47;script>
+  &lt;&#47;body>
+&lt;&#47;html>
+                    </pre>
+                    
+                    <br /><br />
+				    <a name="comments">&nbsp;</a>
+                    <h2>Comments</h2>
+                    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'newmanapidocs'; 
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
+				<!-- span -->
+			</div>
+			<!-- row -->
+		</div>
+		<!-- content -->
+	</div>
+	<!-- /container -->
+
+	<!-- JS //-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap/bootstrap-button.js" type="text/javascript"></script>
+    <script src="js/prettify/prettify.js" type="text/javascript"></script>
+  </body>
+</html>
